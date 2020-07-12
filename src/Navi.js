@@ -64,7 +64,7 @@ export default class SearchExampleStandard extends Component {
         const { isLoading, value, results, source } = this.state
         return (
             <Container>
-                <Grid centered columns={2}>
+                <Grid centered columns={3}>
                     <Grid.Column>
                         <Search
                             size='huge'
