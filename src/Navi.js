@@ -64,11 +64,8 @@ export default class SearchExampleStandard extends Component {
         const { isLoading, value, results, source } = this.state
         return (
             <Container>
-                <Grid columns={2}>
-                    <Grid.Column width={6}>
-
-                    </Grid.Column>
-                    <Grid.Column width={6}>
+                <Grid centered columns={3}>
+                    <Grid.Column>
                         <Search
                             size='huge'
                             placeholder="please type genename"
